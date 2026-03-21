@@ -95,21 +95,41 @@ Important: Be careful to not deselect the option Exclude system drivers on the i
 
 The next step is customization:
 
-1. Choose your hostname: This is what the Raspberry Pi is going to display itself as over an internet network.
+## Choose your hostname
+This is what the Raspberry Pi is going to display itself as over an internet network.
 
 <img width="670" height="471" alt="Screenshot 2026-03-21 at 15 11 24" src="https://github.com/user-attachments/assets/8310c6fb-217a-4d83-b4b6-5a7dea476f63" />
 
-2. Choose your location for localization: This is to suggest time zone and keyboard layout
+## Choose your location for localization
+This is to suggest time zone and keyboard layout
 <img width="670" height="469" alt="Screenshot 2026-03-21 at 15 15 11" src="https://github.com/user-attachments/assets/eaa48b26-e094-45ee-b1e5-e1308b9dd80d" />
 
+## Choose username
+In this step you're going to create a user account for your Raspberry Pi
 
+<img width="694" height="470" alt="Screenshot 2026-03-21 at 15 21 27" src="https://github.com/user-attachments/assets/50bbca79-d21d-4f77-899e-8070c0914e23" />
 
+## Choose Wifi
+Next you will be prompted to choose a wifi for your Raspberry Pi to connect to
 
+<img width="669" height="467" alt="Screenshot 2026-03-21 at 15 23 56" src="https://github.com/user-attachments/assets/23211feb-11e3-466b-9a63-dea106b5bb75" />
 
+Choosing your wifi is very important because this is how you will SSH into your Raspberry Pi. SSH stands for Secure Shell Protocol, a cryptographic network protocol, basically allowing you to go from the terminal of one computer into the terminal of another computer and control it from there.
 
+## Raspberry Pi connect
+Raspberry Pi Connect is a new built-in way to access a Raspberry Pi from nearly anywhere you can open a browser, whether to control yourself or provide remote assistance.
 
+<img width="673" height="476" alt="Screenshot 2026-03-21 at 15 29 20" src="https://github.com/user-attachments/assets/2aee6454-79e4-4fbc-aa44-4f65343e16aa" />
 
+I will skip this since it is not crucial to our project for now.
 
+## Write image
+Now it's going to erase data (if any) on the SD card and write these new specifications on top: 
+Operating system Raspberry Pi 3 (64 Bit) with configured hostname, localisation, user account, wifi and SSH enabled
 
+<img width="674" height="473" alt="Screenshot 2026-03-21 at 15 35 00" src="https://github.com/user-attachments/assets/a113aa20-0e8c-4d3d-9672-8efd8961beb5" />
+
+This is how the screen is going to look like when it's writing. Speed time for the writing process is dependent on your storage device speed:
+<img width="676" height="473" alt="Screenshot 2026-03-21 at 15 36 40" src="https://github.com/user-attachments/assets/9a7d8cdd-8b8b-4d2b-a7ff-2c836f8734f7" />
 
 -------------------------------------------------------------------------------
