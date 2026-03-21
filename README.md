@@ -48,6 +48,19 @@ As a general rule, a Raspberry Pi will run with Raspberry Pi OS, a Linux distrib
 
 When you use a Raspberry Pi for the first time, you’ll probably start with Raspberry Pi OS (formerly named Raspbian). It’s the ideal operating system, as it’s based on the most popular Linux distribution (Debian) and optimized for the Raspberry Pi, with all the tools most users need.
 
+# Set up your micro SD card
+Most MicroSD cards are supplied with a standard SD adapter. Carefully insert the MicroSD card into the designated slot at the base of the adapter.
+
+Important: Ensure the write-protection switch (the "lock" slider) is toggled to the upward (unlocked) position. Confirm that the MicroSD card is fully seated within the adapter to ensure a proper connection.
+
+![IMG_3017](https://github.com/user-attachments/assets/3cb47151-077f-4ac1-876e-0c5abf9f1502)
+
+Once the card is secured in the adapter, insert the assembly into your preferred SD card reader
+![IMG_3018](https://github.com/user-attachments/assets/e1aafacc-5822-48b1-870d-6fb4d789897f)
+
+
+Finally, connect the adaptor to your laptop
+![IMG_3019](https://github.com/user-attachments/assets/6c31a42c-7ece-4c68-8390-0fa8e30ede34)
 
 
 
