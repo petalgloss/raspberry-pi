@@ -63,9 +63,44 @@ Finally, connect the adaptor to your laptop
 ![IMG_3019](https://github.com/user-attachments/assets/6c31a42c-7ece-4c68-8390-0fa8e30ede34)
 
 
+# Headless Raspberry Pi setup
+
+A headless setup is a way to set up Raspberry Pi OS, wifi, SSH, and VNC, all without plugging your Pi into a mouse, keyboard, or monitor. 
+
+## Download Raspberry Pi Imager
+With the SD card now plugged in through the adaptor to your computer, go to this website and download Raspberry Pi Imager: https://www.raspberrypi.com/software/.
+
+Depending on your operating system, choose an appropriate version to download:
+<img width="1165" height="746" alt="Screenshot 2026-03-21 at 15 00 43" src="https://github.com/user-attachments/assets/7aeb9e78-6033-4d68-8667-2d8bc9f2b80d" />
+
+You will get a desktop app with this initial setup starting screen:
+<img width="678" height="472" alt="Screenshot 2026-03-21 at 15 02 00" src="https://github.com/user-attachments/assets/ddce222e-7c32-496f-b69a-b40364be75ca" />
+
+We will be using a Raspberry Pi 3 Model B for this project, so I will go ahead and select Raspberry Pi 3.
+
+Next, you will be prompted to choose an Operating system to install on your Raspberry Pi.
+
+<img width="668" height="472" alt="Screenshot 2026-03-21 at 15 03 17" src="https://github.com/user-attachments/assets/79ea0d75-be9d-4fb6-9910-7b5f56abdd50" />
 
 
+I will choose to download the standard Raspberry Pi OS (64-bit), which is a Linux distribution based on Debian. 
 
+Afterwards, you will be prompted to choose your storage device, which will be the Micro SD Card that I plugged in:
+
+<img width="677" height="472" alt="Screenshot 2026-03-21 at 15 07 14" src="https://github.com/user-attachments/assets/aaee10b1-0296-434d-b54d-8c390c4a7b0a" />
+
+As you can see it reads: Generic Mass-Storage Media (1000 GB), which is equal to 1Tb.
+
+Important: Be careful to not deselect the option Exclude system drivers on the inner right corner. System drives typically contain files essential to the operation of your computer, and may include your personal files such as photos, videos and documents. Selecting the wrong drive will permanently erase data and can render your computer inoperable.
+
+The next step is customization:
+
+1. Choose your hostname: This is what the Raspberry Pi is going to display itself as over an internet network.
+
+<img width="670" height="471" alt="Screenshot 2026-03-21 at 15 11 24" src="https://github.com/user-attachments/assets/8310c6fb-217a-4d83-b4b6-5a7dea476f63" />
+
+2. Choose your location for localization: This is to suggest time zone and keyboard layout
+<img width="670" height="469" alt="Screenshot 2026-03-21 at 15 15 11" src="https://github.com/user-attachments/assets/eaa48b26-e094-45ee-b1e5-e1308b9dd80d" />
 
 
 
