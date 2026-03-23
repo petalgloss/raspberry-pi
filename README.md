@@ -132,4 +132,20 @@ Operating system Raspberry Pi 3 (64 Bit) with configured hostname, localisation,
 This is how the screen is going to look like when it's writing. Speed time for the writing process is dependent on your storage device speed:
 <img width="676" height="473" alt="Screenshot 2026-03-21 at 15 36 40" src="https://github.com/user-attachments/assets/9a7d8cdd-8b8b-4d2b-a7ff-2c836f8734f7" />
 
+After it finishes writing, you take the micro sd card out and plug it into the Raspberry Pi like so:
+![IMG_3070](https://github.com/user-attachments/assets/894b6585-d578-49ae-ac00-e1b7a3b8f15c)
+
+Next, take the power adaptor and plug it in to power the Raspberry Pi. You should press the switch and see a red light:
+![IMG_3073](https://github.com/user-attachments/assets/b6ca5b83-de35-4bae-81fc-8f2613c0a439)
+
+Next, we will go to our laptop go search for Terminal app. For Macbook user use Command + Space and type in "Terminal".
+
+First we will check to see if our Raspberry Pi is on the wifi network before we SSH into it. Type this into the terminal: 
+```
+ping [localhost] -n 1
+```
+
+In the localhost space, type in the name that you customized for your local host in the setup before writing.
+
+
 -------------------------------------------------------------------------------
